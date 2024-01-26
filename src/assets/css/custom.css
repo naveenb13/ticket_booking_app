@@ -1,0 +1,61 @@
+.App {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.page-container {
+    width: 100%;
+    height: 100%;
+    background: URL('../img/ticket1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.category-bg {
+    background-color: lightgrey;
+}
+
+.white-color-seat {
+    background-color: white
+}
+
+.green-color-seat {
+    background-color: green
+}
+
+.black-color-seat {
+    background-color: black
+}
+
+.card-bg {
+    width: 30%;
+    height: fit-content;
+}
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+    .card-bg {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 568px) {
+    .card-bg {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 412px) {}
+
+@media screen and (max-width: 330px) {}
